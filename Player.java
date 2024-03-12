@@ -1,16 +1,20 @@
-package person;
+package player;
 
-public class Person {
+public class Player {
     private String name;
-    private char sym;
+    private char symbol;
    public void setdetails(String name,char sym)
    {
      this.name=name;
-     this.sym=sym;
+     this.symbol=sym;
    }
-    public void print()
-    {
-       System.out.println(this.name+" "+this.sym); 
-    }
+   public String getname()
+   {
+    return this.name;
+   }
+   public char getsymbol()
+   {
+    return this.symbol;
+   }
+   
   }
-  
